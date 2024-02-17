@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 30px  rgba(0, 0,0,.2);
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+
+.logocontainer{
+    width: 180px;
+
+}
+.logocontainer img{
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+.nav li{
+    padding-right:30px ;
+    position: relative;
+}
+.nav-list{
+    position: relative;
+    height: 100%;
+   
+}
+.nav-list:hover .sub_nav{
+    padding-top:20px;
+    cursor: pointer;
+    display: block;
+    
+
+}
+.signBtn{
+    display: flex;
+    align-items: center;
+    background-color: #00baf2;
+    border-radius: 20px;
+}
+.signBtn h4{
+padding: 10px;
+color: white;
+}
+.sub_nav{
+    position: absolute;
+    display: none;
+}
+.sub_nav ul{
+   display: flex;;
+   flex-direction: column;
+   border: 1px solid grey;
+   justify-content: space;
+   width: 100%;
+padding: 10px;
+margin-left: -10px;
+border-radius: 5px;
+background-color: white;
+
+
+}
+.nav-title{
+    display: block;
+}
+.sub_nav ul li{
+   padding: 20px;
+   font-weight: 400;
+   font-size: 1rem;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 0px;  
+ }
+ .icon{
+    position: relative;
+    justify-content: end;
+ }
+ .nav-list ul li:hover .sub_sub_nav {
+   
+   display: block;
+   position: absolute;
+   margin-left: 100%;
+   width: 100%;
+
+
+}
+.nav-list ul li:hover{
+    background-color: gray;
+   
+ 
+ 
+ }
+.sub_sub_nav{
+    display:none;
+
+}
+.x{
+    display: flex;
+}
+.nav li .sub_sub_nav{
+    position:static
+}
+.banner{
+    display: flex;
+    padding-left: 70px;
+   padding-top: 5px;
+    background-color: yellow;
+    color: black;
+    height: 60px;
+   
+}
+.banner p{
+   padding-left: 100px;
+   font-size: large;
+   font-weight: bold;
+   margin-top: 20px;
+   
+}
+.banner img{
+    padding-left:90px;
+    
+ }
+ .test{
+    height: 500px;
+    width: 100%;
+    
+ }
+ .img1{
+    width: 80px;
+    height: 80px;
+    margin-top: 7%;
+     }
+ .img2{
+    height: auto;
+    margin-left: 57%;
+    width: 528px;
+    margin-top: -32%;
+    
+ }
+ .text{
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    font-size: 50px
+    
+ }
+ .text2{
+    margin-top: 1%;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+   
+    
+ }
+ .x{
+    display: flex;
+    padding: 1px;
+    margin: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 220px;
+    border-radius: 25px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+
+ }
+ .x svg{
+    margin-top: -5px;
+    color: white;
+    padding: 7px;
+ }
+
+ 
